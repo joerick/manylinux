@@ -34,7 +34,7 @@ manylinux-build: &manylinux-build
         script: docker/deploy.sh
         on:
           branch: master
-          repo: pypa/manylinux
+          repo: joerick/manylinux
 
 jobs:
   include:
